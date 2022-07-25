@@ -1,0 +1,34 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+public/
+
+# npm
+node_modules
+*.log
+*.gz
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+.env
+*.pem
+
+docker/mongo/init.prod.js
+public/*
+
+dist
+package-lock.json
